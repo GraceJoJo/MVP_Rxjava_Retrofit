@@ -7,7 +7,7 @@ import com.example.jojo.mvp_rxjava_retrofit.widgets.MultipleStatusView;
 /**
  * Created by JoJo on 2018/3/30.
  * wechat：18510829974
- * description：View层接口-View相关的界面更新
+ * description：View层接口-定义V层需要作出的动作的接口(界面更新相关)
  */
 public interface IBaseView {
     /**
@@ -21,16 +21,6 @@ public interface IBaseView {
      * hide loading
      */
     void hideLoading();
-
-    /**
-     * dialog loading
-     */
-    void showDialogLoading(String msg);
-
-    /**
-     * dismiss  dialog loading
-     */
-    void dismissDialogLoading();
 
     /**
      * show business error :网络异常及数据错误等异常情况

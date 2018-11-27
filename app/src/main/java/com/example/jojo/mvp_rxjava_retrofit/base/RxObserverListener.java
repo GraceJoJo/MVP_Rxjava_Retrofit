@@ -34,7 +34,6 @@ public abstract class RxObserverListener<T> implements BaseObserverListener<T> {
         errorBean.setCode(responseThrowable.code + "");
         if (mView != null) {
             mView.showException(errorBean);
-            mView.dismissDialogLoading();
             Toast.makeText(MyApplication.getContext(), responseThrowable.message, Toast.LENGTH_SHORT);
         }
     }
@@ -47,7 +46,6 @@ public abstract class RxObserverListener<T> implements BaseObserverListener<T> {
     public void onBusinessError(ErrorBean errorBean) {
         if (mView != null) {
             mView.showBusinessError(errorBean);
-            mView.dismissDialogLoading();
 //            CommonUtils.makeEventToast(BaseApplication.getInstance(), errorBean.getMsg(), false);
             Log.e("TAG", "onBusinessError msg=" + errorBean.getMsg());
         }

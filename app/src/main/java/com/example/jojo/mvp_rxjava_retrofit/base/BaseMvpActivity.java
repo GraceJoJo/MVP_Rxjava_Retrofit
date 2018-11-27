@@ -70,18 +70,6 @@ public abstract class BaseMvpActivity<P extends BasePresenter, M extends BaseMod
     public void hideLoading() {
 
     }
-
-    @Override
-    public void showDialogLoading(String msg) {
-//        mLoadingDialog = new LoadingDialog.Builder(this).setMessage(msg).create();
-//        mLoadingDialog.show();
-    }
-
-    @Override
-    public void dismissDialogLoading() {
-
-    }
-
     @Override
     public void showBusinessError(ErrorBean error) {
         mMultipleStateView.showError();
