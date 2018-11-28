@@ -1,13 +1,14 @@
 # MVP_Rxjava_Retrofit
-MVP+Retrofit+RxJava2实战，手把手带你打造一套好用的项目联网框架
 
-本Demo主要讲解以下内容：
+MVP+Retrofit+RxJava实战小Demo，可快速移植到自己的项目中进行运用。
+
+本Demo主要涉及到以下内容：
 
 1、如何将Retrofit+RxJava联网框架，结合泛型MVP架构，优雅灵活地运用到项目中。<br>
 2、BaseMvpActivity和BaseMvpFragment的封装<br>
 3、统一封装接口返回的json数据 <br>
 4、自定义接口对网络请求的异常回调进行统一的处理。<br>
-5、MVC、MVP架构的理解<br>
+5、MVC、MVP架构的运用<br>
 
 
 使用MVP+Retrofit+RxJava框架后Activity的代码：
