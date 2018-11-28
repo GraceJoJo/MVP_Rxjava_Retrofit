@@ -53,3 +53,5 @@ public class MainActivity extends BaseMvpActivity<MainPresenter, MainModel> impl
 }
 
 ```
+
+详情讲解可阅读文章[高级MVP+Retrofit+RxJava实战——一步步带你搭建一套好用的项目框架](https://www.jianshu.com/p/02030cdca283)
